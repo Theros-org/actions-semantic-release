@@ -16,7 +16,7 @@ jobs:
           git fetch origin ${{ github.event.pull_request.head.sha }}
           git checkout ${{ github.event.pull_request.head.sha }}
       - name: SonarQube Scan
-        uses: tradeshift/actions-sonarqube@v2
+        uses: theros-org/actions-sonarqube@v2
         with:
           ca-cert: ${{ secrets.MTLS_CACERT }}
           client-cert: ${{ secrets.MTLS_CERT }}

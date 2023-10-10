@@ -1,5 +1,5 @@
 {
-  "name": "@tradeshift/actions-semantic-release",
+  "name": "@theros-org/actions-semantic-release",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tradeshift/actions-semantic-release.git"
+    "url": "git+https://github.com/Theros-org/actions-semantic-release.git"
   },
   "keywords": [],
   "author": "Jacob Wejendorp <jwe@tradeshift.com>",
   "bugs": {
-    "url": "https://github.com/tradeshift/actions-semantic-release/issues"
+    "url": "https://github.com/Theros-org/actions-semantic-release/issues"
   },
-  "homepage": "https://github.com/tradeshift/actions-semantic-release#readme",
+  "homepage": "https://github.com/Theros-org/actions-semantic-release#readme",
   "dependencies": {
     "@actions/core": "1.10.0",
     "@actions/exec": "1.1.1",
